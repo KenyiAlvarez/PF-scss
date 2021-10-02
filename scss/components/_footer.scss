@@ -1,0 +1,18 @@
+.footer {
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.list-items {
+    text-align: center;
+    font-size: 12px;
+}
+.pie {
+    background: black;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, black, rgb(22, 22, 22));
+}

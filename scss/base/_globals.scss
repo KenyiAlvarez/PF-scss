@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* body */
+body {
+    background: #3282B8;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    height: 100%;
+
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    width: 98%;
+    margin: auto;
+}
+.container-footer {
+    width: 98%;
+    margin: auto;
+}
