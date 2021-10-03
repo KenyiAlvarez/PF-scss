@@ -1,3 +1,8 @@
+/* variables */
+
+$colorprimario: #3282B8;
+$colorsecundario: white;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,8 +10,8 @@
 }
 /* body */
 body {
-    background: #3282B8;
-    color: white;
+    background: $colorprimario;
+    color: $colorsecundario;
     font-size: 16px;
     font-family: 'Oswald', sans-serif;
     width: 100%;
@@ -14,7 +19,7 @@ body {
 
 }
 a {
-    color: white;
+    color: $colorsecundario;
     text-decoration: none;
 }
 ul {

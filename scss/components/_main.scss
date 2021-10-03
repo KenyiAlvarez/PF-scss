@@ -1,36 +1,36 @@
 .main section {
-    color: #134a6e;
-    background-color: white;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.6rem;
+  color: #134a6e;
+  background-color: white;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.6rem;
 }
 .news-cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 30px;
 
-    img {
-        width: 80%;
-        height: 150px;
+  img {
+    width: 80%;
+    height: 150px;
+  }
+
+  h4 {
+    font-size: 20px;
+    margin: 10px 0;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    @keyframes aparecer {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
     }
-
-    h4 {
-        font-size: 20px;
-        margin: 10px 0;
-        animation-duration: 5s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
-        @keyframes aparecer {
-            0% {
-              opacity: 0;
-            }
-            100% {
-              opacity: 1;
-            }
-          }
-    }    
+  }    
 }
 
 
