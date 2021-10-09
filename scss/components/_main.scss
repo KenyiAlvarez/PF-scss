@@ -8,17 +8,17 @@
 .news-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
-  margin: 30px;
+  gap: 2.5rem;
+  margin: 1.875rem;
 
   img {
     width: 80%;
-    height: 150px;
+    height: 9.375rem;
   }
 
   h4 {
-    font-size: 20px;
-    margin: 10px 0;
+    font-size: 1.25rem;
+    margin: 0.625rem 0;
     animation-duration: 5s;
     animation-name: aparecer;
     animation-iteration-count: infinite;

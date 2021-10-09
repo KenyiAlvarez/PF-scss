@@ -1,0 +1,102 @@
+
+@media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-main ul.nav-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 1.875rem;
+        opacity: 0.9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show {
+        transform: translateX(-20px);
+    }
+
+    .nav-main ul.nav-menu li {
+        padding: 1.875rem;
+        font-size: 1rem;
+    }
+
+    .nav-main ul li a:hover {
+        background: #000000;
+        transition: 0.8s;
+    }
+
+    .main .section {
+        font-size: 1rem;
+    }
+
+    .titulares {
+        font-size: 1.4rem;
+    }
+
+    .direct h2 {
+        font-size: 1.5rem;
+    }
+    .direct p {
+        font-size: 1rem;
+    }
+    .form .formulario {
+        width: 18.75rem;
+        margin: 0;
+
+    }
+
+    .news-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .news-cards img {
+        height: 15.625rem;
+    }
+
+    .logo-section p {
+        margin: 0.625rem 2.5rem;
+        text-align: justify;
+    }
+
+
+    .footer .nav-logo {
+        padding: 0.625rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .header .tituloprincipal {
+        font-size: 2.5rem;
+    }
+
+    .news-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .news-cards img {
+        height: 12.5rem;
+    }
+
+    .container-footer .footer {
+        grid-template-columns: 1fr;
+
+    }
+
+    .footer .list-items {
+        font-size: 0.625rem;
+        padding: 2.5rem;
+    }
+
+    .footer .nav-logo {
+        padding: 1.25rem;
+        margin-left: 5rem;
+    }
+
+}
